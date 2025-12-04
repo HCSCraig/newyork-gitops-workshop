@@ -22,7 +22,7 @@ org_settings:
     org_name: HCS Technology Group
   webhook_settings:
     activity_webhooks:
-      enable_activity_webhooks: true
+      enable_activities_webhooks: true
       destination_url: https://webhook.site/131b91b4-1c83-4101-9b06-1a95aa45547b
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
