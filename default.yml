@@ -19,9 +19,14 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: HCS Technology Group
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    activity_webhooks:
+      enable_activity_webhooks: true
+      destinations: https://webhook.site/131b91b4-1c83-4101-9b06-1a95aa45547b
+    
